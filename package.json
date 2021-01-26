@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-solidstate",
+  "name": "kali.nyc",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Solid State by HTML5 UP",
+  "description": "Portfolio for Kali aka Slowgen",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-solidstate.git"
+    "url": "git+https://github.com/SlowGen/portfolio.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Kali",
+    "email": "kali@kali.nyc"
   },
   "dependencies": {
     "gatsby": "^2.20.2",
@@ -45,7 +45,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-solidstate/issues"
+    "url": "https://github.com/SlowGen/portfolio/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-solidstate#readme"
+  "homepage": "https://github.com/SlowGen/portfolio#readme"
 }
