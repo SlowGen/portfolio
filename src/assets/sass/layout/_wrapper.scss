@@ -7,8 +7,7 @@
 @mixin wrapper-edges-color($color: black) {
   &:before,
   &:after {
-    background-image: '/src/assets/images/background.png'
-    );
+    background-image: '/src/assets/images/background.png';
   }
 
   &:before {
