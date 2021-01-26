@@ -1,5 +1,6 @@
 # Contribution Guidelines
 
+
 Please ensure your pull request follow these guidelines:
 
 -   Search previous suggestions before making a new one, as yours may be a duplicate.

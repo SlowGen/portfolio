@@ -8,3 +8,8 @@ yarn.lock
 # Build directory
 /public
 .DS_Store
+
+# Hosting
+
+# Other
+README1.md
