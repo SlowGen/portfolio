@@ -114,7 +114,7 @@
 }
 
 .wrapper {
-  background-color: _palette(bg);
+  background-color: _palette(accent2);
   margin: _size(wrapper-edges, large) 0;
   position: relative;
   @include wrapper-edges-color(_palette(bg));
