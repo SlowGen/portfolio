@@ -12,10 +12,9 @@ import pool from '../assets/images/otherlogos/splash.png'
 import emo from '../assets/images/otherlogos/emorocks.jpg'
 import dandy from '../assets/images/otherlogos/dandysplash.jpg'
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic7 from '../assets/images/pic07.jpg';
+import turtle from '../assets/images/photos/turtlepond.jpg';
+import contact from '../assets/images/photos/contactless.png';
+import profile from '../assets/images/photos/profile.jpg';
 
 import config from '../../config';
 const IndexPage = () => {
@@ -36,7 +35,7 @@ const IndexPage = () => {
       <section id="wrapper">
         <section id="four" className="wrapper alt style1">
           <div className="inner">
-            <h2 className="major">My Projects</h2>
+            <h2 className="major" id="work">My Projects</h2>
             <p>
               
             </p>
@@ -162,20 +161,16 @@ const IndexPage = () => {
 
         <section id="one" className="wrapper spotlight style1">
           <div className="inner">
-            <a href="/#" className="image">
-              <img src={pic1} alt="" />
+            <a href="/Photos" className="image">
+              <img src={turtle} alt="" />
             </a>
             <div className="content">
-              <h2 className="major">Magna arcu feugiat</h2>
+              <h2 className="major">My Photography</h2>
               <p>
-                Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-                turpis ante, nullam sit amet turpis non, sollicitudin posuere
-                urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-                dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-                cursus.
+                A little bit of how I see the world
               </p>
-              <a href="/#" className="special">
-                Learn more
+              <a href="/Photos" className="special">
+                View Gallery
               </a>
             </div>
           </div>
@@ -183,20 +178,17 @@ const IndexPage = () => {
 
         <section id="two" className="wrapper alt spotlight style2">
           <div className="inner">
-            <a href="/#" className="image">
-              <img src={pic2} alt="" />
+            <a href="/Writing" className="image">
+              <img src={contact} alt="" />
             </a>
             <div className="content">
-              <h2 className="major">Tempus adipiscing</h2>
+              <h2 className="major">Writing Sample</h2>
               <p>
-                Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-                turpis ante, nullam sit amet turpis non, sollicitudin posuere
-                urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-                dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-                cursus.
+                I wrote a little article about how I view "contactless" payments and where 
+                I see the future of the technology.
               </p>
-              <a href="/#" className="special">
-                Learn more
+              <a href="/Writing" className="special">
+                Read Article
               </a>
             </div>
           </div>
@@ -204,19 +196,15 @@ const IndexPage = () => {
 
         <section id="three" className="wrapper spotlight style3">
           <div className="inner">
-            <a href="/#" className="image">
-              <img src={pic3} alt="" />
+            <a href="/About" className="image">
+              <img src={profile} alt="" />
             </a>
             <div className="content">
-              <h2 className="major">Nullam dignissim</h2>
+              <h2 className="major">About Me</h2>
               <p>
-                Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-                turpis ante, nullam sit amet turpis non, sollicitudin posuere
-                urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-                dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-                cursus.
+                A little about me and my journey to coding.
               </p>
-              <a href="/#" className="special">
+              <a href="/About" className="special">
                 Learn more
               </a>
             </div>
