@@ -8,7 +8,7 @@ export default function Footer() {
         <p>
           Have a question about one of my projects or looking for someone to help on your own project? Reach out to me here!
         </p>
-        <form method="post" action="/#">
+        <form method="post" action="https://formspree.io/f/xoqpbajy">
           <div className="fields">
             <div className="field">
               <label htmlFor="name">Name</label>
@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
             <div className="field">
               <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" />
+              <input type="email" name="_replyto" id="email" />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
