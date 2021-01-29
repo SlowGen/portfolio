@@ -8,12 +8,13 @@ import homeBottom from '../assets/images/home-logo-bottom.png'
 import checks from '../assets/images/photos/checks.png'
 import sleep from '../assets/images/photos/powersleep.jpg'
 import brain from '../assets/images/otherlogos/brain_maze.png'
+import pool from '../assets/images/otherlogos/splash.png'
+import emo from '../assets/images/otherlogos/emorocks.jpg'
+import dandy from '../assets/images/otherlogos/dandysplash.jpg'
 
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 
 import config from '../../config';
@@ -41,9 +42,7 @@ const IndexPage = () => {
             </p>
             <section className="features">
               <article>
-                <a href="/#" className="image">
-                  <img src={checks} alt="" />
-                </a>
+                <img src={checks} className="image" alt="" />
                 <h3 className="major">ChecksOn.Me</h3>
                 <p>
                   This is my current project and is still in the early stages of development. 
@@ -51,53 +50,111 @@ const IndexPage = () => {
                   have computerized register systems. It does not require any special equipment, minimal training and costs
                   the same as any regular credit card transaction.
                 </p>
-                <a href="/#" className="special">
-                  Learn more
+                <a href="http://www.checkson.me" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="special">
+                  See mock-up
                 </a>
               </article>
               <article>
-                <a href="/#" className="image">
-                  <img src={sleep} alt="" />
-                </a>
+                <img src={sleep} className="image" alt="" />
                 <h3 className="major">Power Sleep</h3>
                 <p>
-                  Power Sleep 
+                Powersleep is an app developed as a submission for the{' '}
+                <a
+                  href="2020.spaceappschallenge"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  2020 Space Apps Challenge
+                </a>{' '}
+                hosted by NASA. Our app utilizes Google Calendar and Oauth2 to
+                find windows in a busy user's schedule and create sleep events. As
+                part of a three person team, I was responsible for front end
+                development and dev ops. Powersleep was built using React in less
+                than 48 hours.
                 </p>
-                <a href="/#" className="special">
-                  Learn more
+                <a href="https://www.youtube.com/watch?v=E6GZZHmnJvU" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="special">
+                  Watch demo
                 </a>
               </article>
               <article>
-                <a href="/#" className="image">
-                  <img src={brain} alt="" />
-                </a>
+                <img src={brain} className="image" alt="" />
                 <h3 className="major">ScavengARescape</h3>
                 <p>
-                ScavengARescape is an augmented reality escape game experience
+                An augmented reality adventure game built using Viro Media and
+                React Native. This app was my final presentation project at Grace
+                Hopper. As part of a team of 4 developers, I developed each portal
+                / level of the game, as well as customized the positioning and
+                scale of the 3D graphics to provide for an immersive experience.
                 </p>
-                <a href="/#" className="special">
-                  Learn more
+                <a href="https://www.youtube.com/embed/VGoNcz_78Ns" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="special">
+                  Watch presentation
                 </a>
               </article>
               <article>
-                <a href="/#" className="image">
-                  <img src={pic7} alt="" />
-                </a>
-                <h3 className="major">Fusce consequat</h3>
+                <img src={pool} className="image" alt="" />
+                <h3 className="major">Pool House</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                  nulla dignissim dapibus ultrices.
+                  Pool House is a light-weight mobile app that helps servers and
+                  bartenders calculate the distribution of tips amongst themselves.
+                  This was built as part of the Grace Hopper program's Stackathon over
+                  the course of a weekend. This app was my first exposure to mobile
+                  development and was built using React Native. The current code is
+                  still in development stage.
                 </p>
-                <a href="/#" className="special">
-                  Learn more
+                <a href="https://github.com/SlowGen/PoolHouse" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="special">
+                  See GitHub repo
+                </a>
+              </article>
+              <article>
+                <img src={emo} className="image" alt="" />
+                <h3 className="major">EmoRocks</h3>
+                <p>
+                  EmoRocks is a mock e-commerce site developed as a first project in
+                  the final phase of boot camp. As a member of a team of four, we
+                  accomplished building this site in just over a week using React,
+                  React Hooks, Redux and PostgreSQL. I built the user and admin
+                  fuctionality into the site and contributed to the database design.
+                </p>
+                <a href="http://emorocks.herokuapp.com/" className="special">
+                  View deployed site
+                </a>
+              </article>
+              <article>
+                <img src={dandy} className="image" alt="" />
+                <h3 className="major">The Dandy Warhols</h3>
+                <p>
+                  This site originated as a fan site created by myself and a fellow
+                  fan. After nearly two years of hosting the site on a university
+                  student server, we were asked to become the "official" site by the
+                  band. Ater procurring the domain, our first commercial site was
+                  born. Thanks to the Wayback Machine, the origins of my path to
+                  development live on.
+                </p>
+                <a href="https://web.archive.org/web/19990504204259/http://www.dandywarhols.com/welcome2.html"
+                  target="_blank"
+                  rel="noopener noreferrer" 
+                  className="special">
+                  Go waaaay back
                 </a>
               </article>
             </section>
             <ul className="actions">
               <li>
-                <a href="/#" className="button">
+                {/* <a href="/#" className="button">
                   Browse All
-                </a>
+                </a> */}
               </li>
             </ul>
           </div>
