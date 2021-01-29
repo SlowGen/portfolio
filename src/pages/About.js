@@ -29,7 +29,7 @@ const IndexPage = () => (
               >
                 The Dandy Warhols
               </a>. After moving to NYC in 2000, I pursued a career in
-              hospitality but found myself always drawn to my love of
+              hospitality but found myself always drawn back to my love of
               technology.
               <img src={zandk} className="image right" />
           </p>
