@@ -21,20 +21,20 @@ import west from '../assets/images/photos/west.jpg'
 const handleDragStart = (e) => e.preventDefault();
 
 const items = [
-    <img src={selfee} onDragStart={handleDragStart} className="imagegal" />,
-    <img src={turtle} onDragStart={handleDragStart} className="imagegal" />,
-    <img src={bernie} onDragStart={handleDragStart} className="imagegal" />,
-    <img src={dirty} onDragStart={handleDragStart} className="imagegal" />,
-    <img src={east} onDragStart={handleDragStart} className="imagegal" />,
-    <img src={gridmat} onDragStart={handleDragStart} className="imagegal" />,
-    <img src={north} onDragStart={handleDragStart} className="imagegal" />,
-    <img src={selfie} onDragStart={handleDragStart} className="imagegal" />,
-    <img src={skylight} onDragStart={handleDragStart} className="imagegal" />,
-    <img src={south} onDragStart={handleDragStart} className="imagegal" />,
-    <img src={two} onDragStart={handleDragStart} className="imagegal" />,
-    <img src={west} onDragStart={handleDragStart} className="imagegal" />,
-    <img src={aliens} onDragStart={handleDragStart} className="imagegal" />,
-    <img src={hubble} onDragStart={handleDragStart} className="imagegal" />,
+    <img src={selfee} onDragStart={handleDragStart} className="imagegal" alt="" />,
+    <img src={turtle} onDragStart={handleDragStart} className="imagegal" alt="" />,
+    <img src={bernie} onDragStart={handleDragStart} className="imagegal" alt="" />,
+    <img src={dirty} onDragStart={handleDragStart} className="imagegal" alt="" />,
+    <img src={east} onDragStart={handleDragStart} className="imagegal" alt="" />,
+    <img src={gridmat} onDragStart={handleDragStart} className="imagegal" alt="" />,
+    <img src={north} onDragStart={handleDragStart} className="imagegal" alt="" />,
+    <img src={selfie} onDragStart={handleDragStart} className="imagegal" alt="" />,
+    <img src={skylight} onDragStart={handleDragStart} className="imagegal" alt="" />,
+    <img src={south} onDragStart={handleDragStart} className="imagegal" alt="" />,
+    <img src={two} onDragStart={handleDragStart} className="imagegal" alt="" />,
+    <img src={west} onDragStart={handleDragStart} className="imagegal" alt="" />,
+    <img src={aliens} onDragStart={handleDragStart} className="imagegal" alt="" />,
+    <img src={hubble} onDragStart={handleDragStart} className="imagegal" alt="" />,
 ]
 
 const IndexPage = () => (

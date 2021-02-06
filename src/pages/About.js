@@ -3,8 +3,6 @@ import React from 'react';
 import Layout from '../components/Layout';
 import zandk from '../assets/images/photos/ziakali.jpg';
 import pool from '../assets/images/photos/poolchamps.jpg'
-import linkedin from '../assets/images/otherlogos/linkedin.jpg';
-import github from '../assets/images/otherlogos/Octocat.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -31,7 +29,7 @@ const IndexPage = () => (
               </a>. After moving to NYC in 2000, I pursued a career in
               hospitality but found myself always drawn back to my love of
               technology.
-              <img src={zandk} className="image right" />
+              <img src={zandk} className="image right" alt=""/>
           </p>
 
           <p>
@@ -60,7 +58,7 @@ const IndexPage = () => (
 
           <h3 className="major">My personal life...</h3>
           <p>
-          <img src={pool} className="image left" />
+          <img src={pool} className="image left" alt="" />
             In my pre-Covid free time, I was an avid pool player competing
               in local leagues since 2007, winning several team championships
               and an MVP award. These days, I still keep in touch with my
