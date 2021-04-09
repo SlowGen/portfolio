@@ -16,7 +16,6 @@ import turtle from '../assets/images/photos/turtlepond.jpg';
 import contact from '../assets/images/photos/contactless.png';
 import profile from '../assets/images/photos/profile.jpg';
 
-import config from '../../config';
 const IndexPage = () => {
   const [logoTile, setLogoTile] = useState(homeTop)
   return (
