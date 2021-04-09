@@ -16,13 +16,14 @@ export default function Footer() {
     <section id="footer">
       <div className="inner">
         <h2 className="major">Get in touch</h2>
-        <p>
-          Have a question about one of my projects or looking for someone to help on your own project? Reach out to me here!
-        </p>
         {isSent ? 
         <div>
           <h1>Thanks for reaching out!!</h1><br/><br/><br/><br/>
         </div> :
+        <p>
+          Have a question about one of my projects or looking for someone to help on your own project? Reach out to me here!
+        </p>
+        }
         <form method="post" onSubmit={() => displayThankYou()} action="https://formspree.io/f/xoqpbajy" target='popup'>
           <div className="fields">
             <div className="field">
@@ -45,7 +46,7 @@ export default function Footer() {
             </li>
           </ul>
         </form>
-        }
+
         <ul className="contact">
           <li className="fa-home">{config.address}</li>
 
