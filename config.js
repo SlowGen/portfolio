@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'public/logo.png', //favicon
+  manifestIcon: 'src/assets/img/logo.png', //favicon
   heading: 'kali.nyc',
   subHeading: 'Software Engineer',
   // social
