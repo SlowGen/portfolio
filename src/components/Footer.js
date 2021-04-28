@@ -27,15 +27,15 @@ export default function Footer() {
         <form method="post" onSubmit={() => displayThankYou()} action="https://formspree.io/f/xoqpbajy" target='popup'>
           <div className="fields">
             <div className="field">
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name" required>Name</label>
               <input type="text" name="name" id="name" />
             </div>
             <div className="field">
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email" required>Email</label>
               <input type="email" name="_replyto" id="email" />
             </div>
             <div className="field">
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message" required>Message</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
           </div>
