@@ -10,7 +10,6 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>About Me!</h2>
-          <p>Kali, just Kali! No last name!</p>
         </div>
       </header>
 
