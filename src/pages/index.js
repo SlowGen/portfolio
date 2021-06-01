@@ -61,7 +61,7 @@ const IndexPage = () => {
                 <p>
                 Power Sleep is an app developed as a submission for the{' '}
                 <a
-                  href="2020.spaceappschallenge"
+                  href="https://www.spaceappschallenge.org/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
