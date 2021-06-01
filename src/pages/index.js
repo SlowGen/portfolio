@@ -59,7 +59,7 @@ const IndexPage = () => {
                 <img src={sleep} className="image" alt="" />
                 <h3 className="major">Power Sleep</h3>
                 <p>
-                Powersleep is an app developed as a submission for the{' '}
+                Power Sleep is an app developed as a submission for the{' '}
                 <a
                   href="2020.spaceappschallenge"
                   target="_blank"
@@ -70,7 +70,7 @@ const IndexPage = () => {
                 hosted by NASA. Our app utilizes Google Calendar and Oauth2 to
                 find windows in a busy user's schedule and create sleep events. As
                 part of a three person team, I was responsible for front end
-                development and dev ops. Powersleep was built using React in less
+                development and dev ops. Power Sleep was built using React in less
                 than 48 hours.
                 </p>
                 <a href="https://www.youtube.com/watch?v=E6GZZHmnJvU" 
@@ -96,24 +96,36 @@ const IndexPage = () => {
                   className="special">
                   Watch presentation
                 </a>
-              </article>
-              <article>
-                <img src={pool} className="image" alt="" />
-                <h3 className="major">Pool House</h3>
-                <p>
-                  Pool House is a light-weight mobile app that helps servers and
-                  bartenders calculate the distribution of tips amongst themselves.
-                  This was built as part of the Grace Hopper program's Stackathon over
-                  the course of a weekend. This app was my first exposure to mobile
-                  development and was built using React Native. The current code is
-                  still in development stage.
-                </p>
-                <a href="https://github.com/SlowGen/PoolHouse" 
+                <a href="https://github.com/Capstone-E/ScavengAR-Escape" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="special">
                   See GitHub repo
                 </a>
+              </article>
+              <article>
+                <img src={pool} className="image" alt="" />
+                <h3 className="major">Pool House</h3>
+                <p>
+                  PoolHouse is a light-weight mobile app that helps servers and
+                  bartenders calculate the distribution of tips amongst themselves.
+                  This was built as part of the Grace Hopper program's Stackathon over
+                  the course of a weekend. This app was my first exposure to mobile
+                  development and was built using React Native. I'm currently rebuilding 
+                  the app using Flutter.
+                </p>
+                <a href="https://github.com/SlowGen/PoolHouse" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="special">
+                    See GitHub repo (React Native)
+                </a>
+                <a href="https://github.com/SlowGen/PoolHouse-Flutter"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="special">
+                    See GitHub repo (Flutter)
+                  </a>
               </article>
               <article>
                 <img src={emo} className="image" alt="" />
