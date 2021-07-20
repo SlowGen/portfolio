@@ -109,23 +109,23 @@ const IndexPage = () => {
                 <p>
                   PoolHouse is a light-weight mobile app that helps servers and
                   bartenders calculate the distribution of tips amongst themselves.
-                  This was built as part of the Grace Hopper program's Stackathon over
-                  the course of a weekend. This app was my first exposure to mobile
-                  development and was built using React Native. I'm currently rebuilding 
-                  the app using Flutter.
+                  The original was built with React Native as part of the Grace Hopper 
+                  program's Stackathon in one weekend. I have since completely rebuilt
+                  the app using Flutter. The Flutter version is currently in testing
+                  on Google Play and will be fully released soon!
                 </p>
-                <a href="https://github.com/SlowGen/PoolHouse" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="special">
-                    See GitHub repo (React Native)
-                </a>
                 <a href="https://github.com/SlowGen/PoolHouse-Flutter"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="special">
                     See GitHub repo (Flutter)
                   </a>
+                <a href="https://github.com/SlowGen/PoolHouse" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="special">
+                    See GitHub repo (React Native)
+                </a>
               </article>
               <article>
                 <img src={emo} className="image" alt="" />
