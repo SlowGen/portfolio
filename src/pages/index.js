@@ -111,8 +111,7 @@ const IndexPage = () => {
                   bartenders calculate the distribution of tips amongst themselves.
                   The original was built with React Native as part of the Grace Hopper 
                   program's Stackathon in one weekend. I have since completely rebuilt
-                  the app using Flutter. The Flutter version is currently in testing
-                  on Google Play and will be fully released soon!
+                  the app using Flutter and is currently in testing on Google Play.
                 </p>
                 <a href="https://github.com/SlowGen/PoolHouse-Flutter"
                   target="_blank"
