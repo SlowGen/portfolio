@@ -119,11 +119,11 @@ const IndexPage = () => {
                   className="special">
                     See GitHub repo (Flutter)
                   </a>
-                <a href="https://github.com/SlowGen/PoolHouse" 
+                <a href="https://play.google.com/store/apps/details?id=nyc.slowgen.poolhouse" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="special">
-                    See GitHub repo (React Native)
+                    View on Google Play
                 </a>
               </article>
               <article>
